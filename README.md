@@ -117,10 +117,6 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
 </div>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=Zespek&rank_icon=github&show_icons=true&theme=radical&count_private=true">
-  <img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=Zespek&layout=compact&theme=radical&count_private=true">
-  <br/>
-  <br/>
   <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zespek&theme=radical"/>
 </div>
 
