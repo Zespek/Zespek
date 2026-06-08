@@ -113,6 +113,20 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
 ---
 
 <div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&pause=2500&duration=2000&color=bd00ff&vCenter=true&width=800&height=40&lines=>_+./github_stats.sh" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=Zespek&rank_icon=github&show_icons=true&theme=radical&count_private=true">
+  <img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=Zespek&layout=compact&theme=radical&count_private=true">
+  <br/>
+  <br/>
+  <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zespek&theme=radical"/>
+</div>
+
+---
+
+<div align="left">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&pause=2500&duration=2000&color=bd00ff&vCenter=true&width=800&height=40&lines=>_+./conecte_se.sh" alt="Conecte-se" />
 </div>
 
