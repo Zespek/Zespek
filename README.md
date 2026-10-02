@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.webp" width="100%" alt="Header Matrix" style="border-radius: 8px;" />
+  <img src="./banner.webp" width="100%" alt="José Felipe | CTO | Senior Software Engineer | KMP" />
 </div>
 
 <br/>
