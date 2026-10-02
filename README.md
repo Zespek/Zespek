@@ -12,7 +12,8 @@ zespek@server:~$ cat ./resumo_profissional.ini
 [ Conectando Código de Alta Performance, Cloud e Gestão Estratégica ]
 
 [Resumo_Profissional]
-  - "Engenheiro de Software Senior e Líder Técnico, atuando também como CIO."
+  - "Sócio e CTO na Mestres da Web, atuando hands-on como Senior Software Engineer e Tech Lead."
+  - "Foco em arquitetura, liderança técnica, engenharia de alta performance e entrega contínua."
   - "Verdadeira paixão por codar e arquitetar soluções tecnológicas complexas."
   - "Especialista em Full Stack & Mobile: do absoluto zero até o deploy em produção."
 
@@ -59,17 +60,17 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
 
 [Gestao_Tech_Agil]
 
-[CIO_Project_Manager:]
-  - "Liderança executiva das operações, alinhando arquitetura e métricas."
+[CTO_Tech_Governance:]
+  - "Liderança executiva e governança técnica, alinhando arquitetura e escala."
 
 [Agile_Coach_Scrum:]
   - "Implementação ágil (Scrum/Kanban) na veia dos times, quebrando silos."
 
 [Business_Education:]
-  - "MBA em Marketing Digital e Analytics (Cursando) e docência superior."
+  - "Docente no ensino superior em Engenharia de Software."
 
 [Cybersecurity_Data:]
-  - "Especializações em Modelagem Preditiva, IA e Segurança da Informação."
+  - "Pós-graduado em Data Science & Inteligência Artificial, com foco em NLP."
 ```
 
 ---
