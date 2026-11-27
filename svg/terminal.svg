@@ -24,50 +24,58 @@ text { font: 500 15px 'Fira Code Zespek', 'Fira Code', ui-monospace, Consolas, M
   <linearGradient id="luz" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#bd00ff" stop-opacity="0"/><stop offset=".5" stop-color="#d14dff"/><stop offset="1" stop-color="#bd00ff" stop-opacity="0"/>
   </linearGradient>
-  <clipPath id="moldura"><rect x="1" y="1" width="858" height="260" rx="10"/></clipPath>
+  <clipPath id="moldura"><rect x="1" y="1" width="858" height="260" rx="8"/></clipPath>
+  
 </defs>
 <g clip-path="url(#moldura)">
   <rect width="860" height="262" fill="#0d0b11"/>
   <rect width="860" height="120" fill="url(#topo)"/>
-  <rect width="860" height="36" fill="#15121b"/>
-  <rect y="36" width="860" height="1" fill="#2b2733"/>
-  <circle cx="22" cy="18" r="6" fill="#ff1f3d"/><circle cx="42" cy="18" r="6" fill="#ffb000"/><circle cx="62" cy="18" r="6" fill="#2ee8d0"/>
-  <text class="barra" x="430.0" y="18" text-anchor="middle" dominant-baseline="central">zespek@server: ~</text>
-  <clipPath id="l0"><rect x="24" y="62.5" height="27" width="211">
-  <animate attributeName="width" values="157;166;175;184;193;202;211;0" keyTimes="0.0000;0.0350;0.0387;0.0425;0.0462;0.0500;0.0537;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+  <rect width="860" height="34" fill="#15121b"/>
+  <rect y="34" width="860" height="1" fill="#2b2733"/>
+  <rect x="12" y="9" width="16" height="16" rx="3" fill="#bd00ff"/>
+  <path d="M15.5 13l3.2 3.8-3.2 3.8" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20.2" y="19.8" width="5" height="1.6" fill="#fff"/>
+  <text class="barra" x="38" y="17.5" dominant-baseline="central">zespek@server: ~</text>
+  <g fill="none" stroke="#e8e9eb" stroke-width="1" opacity=".8">
+    <path d="M740 17.5h10"/>
+    <rect x="786.5" y="12.5" width="9" height="9"/>
+    <path d="M832.5 12.5l9 9M841.5 12.5l-9 9"/>
+  </g>
+  <clipPath id="l0"><rect x="24" y="58.5" height="27" width="211">
+  <animate attributeName="width" values="157;166;175;184;193;202;211;0" keyTimes="0.0000;0.0288;0.0325;0.0363;0.0400;0.0437;0.0475;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l0)"><text x="26" y="76" textLength="207" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan><tspan fill="#e8e9eb">whoami</tspan></text></g>
-<clipPath id="l1"><rect x="24" y="89.5" height="27" width="598">
-  <animate attributeName="width" values="0;598;0" keyTimes="0.0000;0.0938;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l0)"><text x="26" y="72" textLength="207" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan><tspan fill="#e8e9eb">whoami</tspan></text></g>
+  <clipPath id="l1"><rect x="24" y="85.5" height="27" width="598">
+  <animate attributeName="width" values="0;598;0" keyTimes="0.0000;0.0938;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l1)"><text x="26" y="103" textLength="594" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#f3daff">José Felipe · CTO | Tech Governance | KMP® | Agile Coach | Teacher</tspan></text></g>
-<clipPath id="l2"><rect x="24" y="116.5" height="27" width="337">
-  <animate attributeName="width" values="0;157;166;175;184;193;202;211;220;229;238;247;256;265;274;283;292;301;310;319;328;337;0" keyTimes="0.0000;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l1)"><text x="26" y="99" textLength="594" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#f3daff">José Felipe · CTO | Tech Governance | KMP® | Agile Coach | Teacher</tspan></text></g>
+  <clipPath id="l2"><rect x="24" y="112.5" height="27" width="337">
+  <animate attributeName="width" values="0;157;166;175;184;193;202;211;220;229;238;247;256;265;274;283;292;301;310;319;328;337;0" keyTimes="0.0000;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l2)"><text x="26" y="130" textLength="333" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan><tspan fill="#e8e9eb">cat ./foco_atual.txt</tspan></text></g>
-<clipPath id="l3"><rect x="24" y="143.5" height="27" width="454">
-  <animate attributeName="width" values="0;454;0" keyTimes="0.0000;0.2313;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l2)"><text x="26" y="126" textLength="333" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan><tspan fill="#e8e9eb">cat ./foco_atual.txt</tspan></text></g>
+  <clipPath id="l3"><rect x="24" y="139.5" height="27" width="454">
+  <animate attributeName="width" values="0;454;0" keyTimes="0.0000;0.2313;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l3)"><text x="26" y="157" textLength="450" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">segurança de aplicações e servidores em produção</tspan></text></g>
-<clipPath id="l4"><rect x="24" y="170.5" height="27" width="499">
-  <animate attributeName="width" values="0;499;0" keyTimes="0.0000;0.2500;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l3)"><text x="26" y="153" textLength="450" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">segurança de aplicações e servidores em produção</tspan></text></g>
+  <clipPath id="l4"><rect x="24" y="166.5" height="27" width="499">
+  <animate attributeName="width" values="0;499;0" keyTimes="0.0000;0.2500;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l4)"><text x="26" y="184" textLength="495" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">acho a falha antes de outra pessoa e fecho com o time</tspan></text></g>
-<clipPath id="l5"><rect x="24" y="197.5" height="27" width="409">
-  <animate attributeName="width" values="0;409;0" keyTimes="0.0000;0.2687;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l4)"><text x="26" y="180" textLength="495" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">acho a falha antes de outra pessoa e fecho com o time</tspan></text></g>
+  <clipPath id="l5"><rect x="24" y="193.5" height="27" width="409">
+  <animate attributeName="width" values="0;409;0" keyTimes="0.0000;0.2687;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l5)"><text x="26" y="211" textLength="405" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">governança técnica e times ágeis com Kanban</tspan></text></g>
-<clipPath id="l6"><rect x="24" y="224.5" height="27" width="157">
-  <animate attributeName="width" values="0;157;0" keyTimes="0.0000;0.3000;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l5)"><text x="26" y="207" textLength="405" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#2ee8d0">&gt; </tspan><tspan fill="#e8e9eb">governança técnica e times ágeis com Kanban</tspan></text></g>
+  <clipPath id="l6"><rect x="24" y="220.5" height="27" width="157">
+  <animate attributeName="width" values="0;157;0" keyTimes="0.0000;0.3000;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect></clipPath>
-<g clip-path="url(#l6)"><text x="26" y="238" textLength="153" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan></text></g>
-<rect class="cursor" x="180" y="229" width="9" height="18" fill="#bd00ff">
-  <animate attributeName="x" values="180;189;198;207;216;225;234;180;189;198;207;216;225;234;243;252;261;270;279;288;297;306;315;324;333;342;351;360;180;-39" keyTimes="0.0000;0.0350;0.0387;0.0425;0.0462;0.0500;0.0537;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.3000;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="y" values="67;67;67;67;67;67;67;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;121;229;67" keyTimes="0.0000;0.0350;0.0387;0.0425;0.0462;0.0500;0.0537;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.3000;0.9500" calcMode="discrete" dur="16.0s" repeatCount="indefinite"/>
+<g clip-path="url(#l6)"><text x="26" y="234" textLength="153" lengthAdjust="spacingAndGlyphs" dominant-baseline="central"><tspan fill="#d14dff">zespek@server</tspan><tspan fill="#6f86ff">:~</tspan><tspan fill="#e8e9eb">$ </tspan></text></g>
+  <rect class="cursor" x="180" y="225" width="9" height="18" fill="#bd00ff">
+  <animate attributeName="x" values="180;189;198;207;216;225;234;180;189;198;207;216;225;234;243;252;261;270;279;288;297;306;315;324;333;342;351;360;180;-39" keyTimes="0.0000;0.0288;0.0325;0.0363;0.0400;0.0437;0.0475;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.3000;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="63;63;63;63;63;63;63;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;117;225;63" keyTimes="0.0000;0.0288;0.0325;0.0363;0.0400;0.0437;0.0475;0.1375;0.1631;0.1669;0.1706;0.1744;0.1781;0.1819;0.1856;0.1894;0.1931;0.1969;0.2006;0.2044;0.2081;0.2119;0.2156;0.2194;0.2231;0.2269;0.2306;0.2344;0.3000;0.9500" calcMode="discrete" dur="16.00s" repeatCount="indefinite"/>
 </rect>
   <rect width="860" height="262" fill="url(#tubo)"/>
   <rect class="varre" width="860" height="110" fill="url(#faixa)"/>
   <rect class="luz" y="260" width="220" height="2" fill="url(#luz)"/>
 </g>
-<rect x=".5" y=".5" width="859" height="261" rx="10.5" fill="none" stroke="#2b2733"/>
+<rect x=".5" y=".5" width="859" height="261" rx="8.5" fill="none" stroke="#2b2733"/>
 </svg>

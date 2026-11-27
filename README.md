@@ -14,6 +14,13 @@
 
 <img src="./svg/titulo-resumo.svg" alt=">_ ./resumo_profissional.sh" />
 
+<div align="center">
+  <img src="./svg/secao-resumo.svg" width="100%" alt="Terminal: cat ./resumo_profissional.ini" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
+
 ```ini
 zespek@server:~$ cat ./resumo_profissional.ini
 [ Conectando Código de Alta Performance, Cloud, Segurança e Gestão Estratégica ]
@@ -29,9 +36,18 @@ zespek@server:~$ cat ./resumo_profissional.ini
   - "Teacher: professor de Engenharia de Software na Universidade de Mogi das Cruzes."
 ```
 
+</details>
+
 ---
 
 <img src="./svg/titulo-engenharia.svg" alt=">_ ./dominio_em_engenharia_e_deploy.sh" />
+
+<div align="center">
+  <img src="./svg/secao-engenharia.svg" width="100%" alt="Terminal: cat ./detalhes_engenharia.ini" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
 
 ```ini
 zespek@server:~$ cat ./detalhes_engenharia.ini
@@ -62,9 +78,18 @@ zespek@server:~$ cat ./detalhes_engenharia.ini
   - "Dispositivos e bluetooth, IA aplicada, pagamentos e fiscal, sites e marketing."
 ```
 
+</details>
+
 ---
 
 <img src="./svg/titulo-seguranca.svg" alt=">_ ./seguranca_em_producao.sh" />
+
+<div align="center">
+  <img src="./svg/secao-seguranca.svg" width="100%" alt="Terminal: cat ./seguranca.log" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
 
 ```ini
 zespek@server:~$ cat ./seguranca.log
@@ -92,9 +117,18 @@ zespek@server:~$ cat ./seguranca.log
   - "e times que não têm ninguém dedicado à segurança."
 ```
 
+</details>
+
 ---
 
 <img src="./svg/titulo-lideranca.svg" alt=">_ ./lideranca_tecnica_e_agil.sh" />
+
+<div align="center">
+  <img src="./svg/secao-lideranca.svg" width="100%" alt="Terminal: cat ./lideranca_tecnica.ini" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
 
 ```ini
 zespek@server:~$ cat ./lideranca_tecnica.ini
@@ -112,9 +146,18 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
   - "Docente no ensino superior em Engenharia de Software, na Universidade de Mogi das Cruzes."
 ```
 
+</details>
+
 ---
 
 <img src="./svg/titulo-formacao.svg" alt=">_ ./formacao_academica.sh" />
+
+<div align="center">
+  <img src="./svg/secao-formacao.svg" width="100%" alt="Terminal: cat ./formacao.ini" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
 
 ```ini
 zespek@server:~$ cat ./formacao.ini
@@ -133,6 +176,8 @@ zespek@server:~$ cat ./formacao.ini
   - "Kanban Management Professional (KMP®), Kanban University (2025)."
 ```
 
+</details>
+
 <div align="center">
   <a href="https://www.certeduc.com:45344/getdocumento/04302037000800/1374026891486/0c4e221a2102e848a7bc5a5729875d264511662b829ae4660f2045b2cc3413cd30187212fe7fc1dcc87aceec42c1429bb656ca0d4f2b3f4e62fbb74cb34bdc36/pdf"><img src="https://img.shields.io/badge/Ci%C3%AAncia_da_Computa%C3%A7%C3%A3o_%28UNG%29-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="Ciência da Computação (UNG): validar" /></a>
   <a href="https://kroton.platosedu.io/docs/validar/29829818fc93c479db5f2439759ac8243bf1517806623295ac4f3ee885121925fb6585"><img src="https://img.shields.io/badge/MBA_Gest%C3%A3o_de_Projetos_em_TI-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="MBA Gestão de Projetos em TI: validar" /></a>
@@ -147,6 +192,13 @@ zespek@server:~$ cat ./formacao.ini
 
 <img src="./svg/titulo-arsenal.svg" alt=">_ ./arsenal_tecnologico.sh" />
 
+<div align="center">
+  <img src="./svg/secao-arsenal.svg" width="100%" alt="Terminal: cat ./arsenal.ini" />
+</div>
+
+<details>
+<summary>ver em texto</summary>
+
 ```ini
 zespek@server:~$ cat ./arsenal.ini
 [ API / servidor / banco / código ]
@@ -157,11 +209,9 @@ zespek@server:~$ cat ./arsenal.ini
   - "Leitura de logs e de tráfego."
   - "Monitoramento com alerta, automação de servidor e de deploy."
   - "Scripts próprios para o que se repete."
-
-[O_que_me_ajuda]
-  - "Um painel próprio que vigia os servidores o dia todo."
-  - "Um checklist que cresce a cada incidente resolvido."
 ```
+
+</details>
 
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=bd00ff" alt="JavaScript" />
