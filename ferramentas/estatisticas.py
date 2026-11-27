@@ -115,13 +115,14 @@ def desenhar(info):
                      f'<tspan fill="{LILAS}">{chave.ljust(16)}</tspan><tspan fill="{SUAVE}">= </tspan>'
                      f'<tspan fill="{CLARO}">"{escape(valor)}"</tspan></text>')
 
-    # Barras dos últimos 12 meses: crescem uma atrás da outra e um brilho corre por elas
+    # Barras dos últimos 12 meses: crescem uma atrás da outra e um brilho corre por dentro delas
     bx, base_y, alto, larg_b, vao = 470, 236, 150, 24, 7
     pico = max(v for _, v in meses) or 1
-    barras = []
+    barras, formas = [], []
     for i, (mes, valor) in enumerate(meses):
         h = max(2, round(valor / pico * alto))
         x = bx + i * (larg_b + vao)
+        formas.append(f'<rect x="{x}" y="{base_y - h}" width="{larg_b}" height="{h}"/>')
         destaque = valor == pico
         barras.append(f'<rect class="barra" style="animation-delay: {0.5 + i * 0.07:.2f}s" x="{x}" y="{base_y - h}" '
                       f'width="{larg_b}" height="{h}" fill="{"url(#pico)" if destaque else "url(#coluna)"}"/>')
@@ -138,10 +139,10 @@ def desenhar(info):
   <linearGradient id="coluna" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ROXO}"/><stop offset="1" stop-color="{ROXO_ESCURO}" stop-opacity=".55"/></linearGradient>
   <linearGradient id="pico" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{CLARO}"/><stop offset=".25" stop-color="{ROXO_VIVO}"/><stop offset="1" stop-color="{ROXO}"/></linearGradient>
   <linearGradient id="topo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ROXO}" stop-opacity=".16"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></linearGradient>
-  <linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
   <linearGradient id="faixa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ROXO}" stop-opacity="0"/><stop offset=".9" stop-color="{ROXO}" stop-opacity=".10"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></linearGradient>
   <clipPath id="moldura"><rect x="1" y="1" width="{largura - 2}" height="{altura - 2}" rx="10"/></clipPath>
-  <clipPath id="area-barras"><rect x="{bx}" y="{base_y - alto - 4}" width="{largura_barras}" height="{alto + 4}"/></clipPath>
+  <clipPath id="area-barras">{''.join(formas)}</clipPath>
 </defs>
 <g clip-path="url(#moldura)">
   <rect width="{largura}" height="{altura}" fill="{FUNDO}"/>
