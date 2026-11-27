@@ -1,11 +1,13 @@
 <div align="center">
-  <img src="./banner.webp" width="100%" alt="José Felipe | CTO | Senior Software Engineer | KMP" />
+  <img src="./banner.webp" width="100%" alt="José Felipe | CTO | Tech Governance | KMP® | Agile Coach | Teacher" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./svg/terminal.svg" width="100%" alt="zespek@server: whoami. José Felipe, CTO, Senior Software Engineer e professor universitário" />
+  <img src="./svg/terminal.svg" width="100%" alt="zespek@server: whoami. José Felipe, CTO | Tech Governance | KMP® | Agile Coach | Teacher" />
+  <br/><br/>
+  <a href="https://zespek.com.br/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-zespek.com.br-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQwMGZmIiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkuNSIvPjxwYXRoIGQ9Ik0yLjUgMTJoMTlNMTIgMi41YzMgMy4yIDMgMTUuOCAwIDE5TTEyIDIuNWMtMyAzLjItMyAxNS44IDAgMTkiLz48L3N2Zz4%3D" alt="Portfólio: zespek.com.br" /></a>
 </div>
 
 <br/>
@@ -17,14 +19,14 @@ zespek@server:~$ cat ./resumo_profissional.ini
 [ Conectando Código de Alta Performance, Cloud, Segurança e Gestão Estratégica ]
 
 [Resumo_Profissional]
-  - "Sócio e CTO na Mestres da Web, atuando hands-on como Senior Software Engineer e Tech Lead."
+  - "Sócio e CTO na Mestres da Web, à frente da governança técnica e ainda hands-on no código."
   - "Foco em arquitetura, liderança técnica, engenharia de alta performance e entrega contínua."
   - "Verdadeira paixão por codar e arquitetar soluções tecnológicas complexas."
   - "Especialista em Full Stack & Mobile: do absoluto zero até o deploy em produção."
 
 [Lideranca_Ensino]
-  - "Comando times de alta performance através de metodologias ágeis."
-  - "Atuo como Professor de Engenharia de Software para formar a nova geração de Devs."
+  - "Agile Coach: comando times de alta performance com Scrum e Kanban (KMP®)."
+  - "Teacher: professor de Engenharia de Software, formando a nova geração de Devs."
 ```
 
 ---
@@ -36,8 +38,9 @@ zespek@server:~$ cat ./detalhes_engenharia.ini
 [ O coração do meu trabalho é estruturar sistemas escaláveis e orientados a performance: ]
 
 [Frontend_Mobile]
-  - "Interfaces interativas e ultrarrápidas com React, Next.js e TypeScript."
-  - "Apps multiplataforma com React Native / Expo e Kotlin Multiplatform (KMP)."
+  - "Interfaces interativas e ultrarrápidas com React, Next.js, Astro e TypeScript."
+  - "Experiências 3D interativas na web com Three.js."
+  - "Apps mobile multiplataforma com React Native e Expo."
   - "Apps desktop leves com Tauri."
 
 [Backend_Arquitetura]
@@ -51,6 +54,12 @@ zespek@server:~$ cat ./detalhes_engenharia.ini
   - "Servidores Linux com Nginx, PM2 e Docker: proxy reverso, HTTPS e conteinerização."
   - "Ecossistema Cloud: AWS, Azure, GCP, Oracle Cloud, DigitalOcean, Vercel e Netlify."
   - "Cloudflare na borda: DNS, proxy e proteção."
+
+[Areas_em_que_ja_desenvolvi]
+  - "Saúde e bem-estar, indústria, agro e logística, varejo e food service."
+  - "Turismo, eventos e lazer, serviços sob demanda, educação e conteúdo."
+  - "Imobiliário e hospedagem, creators e redes sociais, segurança e ocorrências."
+  - "Dispositivos e bluetooth, IA aplicada, pagamentos e fiscal, sites e marketing."
 ```
 
 ---
@@ -59,22 +68,28 @@ zespek@server:~$ cat ./detalhes_engenharia.ini
 
 ```ini
 zespek@server:~$ cat ./seguranca.log
-[ Segurança não é etapa final: entra no código, no servidor e na rotina. ]
+[ Acho a falha no sistema antes que outra pessoa ache, e fecho junto com o time. ]
+
+[Como_trabalho]
+  - "Sistema que já está em produção: API, servidor, banco e o caminho entre eles."
+  - "Cada achado vem com a correção, o teste e o monitoramento ligado para a próxima vez."
 
 [Aplicacao]
-  - "Auditoria de permissões e de acesso a dados (escalada de papel, IDOR)."
-  - "Validação de entrada, limite de requisições e travas contra robôs."
-  - "Log sem dado sensível: senha e dado pessoal não vão para o log."
+  - "Segurança de API e controle de acesso (escalada de papel, IDOR)."
+  - "Injeção e entrada de dados, anti-abuso e limite de requisições."
+  - "Vazamento de credenciais: segredo fora do código e fora do log."
 
-[Servidores]
-  - "Linux endurecido: SSH só por chave, firewall e fail2ban."
-  - "Sensores próprios de login, reboot, disco e backup, com alerta por e-mail."
+[Infraestrutura]
+  - "Hardening de servidor: SSH só por chave, firewall e fail2ban."
+  - "Isolamento de infraestrutura, monitoramento e auditoria com alertas."
 
-[Dependencias]
-  - "Varredura de vulnerabilidades e plano de atualização de Node e pacotes."
+[Vulnerabilidades_e_Incidentes]
+  - "Gestão de vulnerabilidades: varredura e plano de atualização de Node e pacotes."
+  - "Resposta a incidente: logs, linha do tempo, correção e reteste."
 
-[Resposta_a_Incidentes]
-  - "Investigação por logs e linha do tempo, com correção e reteste."
+[Para_quem]
+  - "Empresas com sistema no ar, agências que entregam software para clientes"
+  - "e times que não têm ninguém dedicado à segurança."
 ```
 
 ---
@@ -89,10 +104,11 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
   - "Liderança executiva e governança técnica, alinhando arquitetura e escala."
   - "Painel próprio de operação: saúde, custo e segurança de dezenas de projetos."
 
-[Agile_Coach_Scrum]
+[Agile_Coach_KMP]
   - "Implementação ágil (Scrum/Kanban) na veia dos times, quebrando silos."
+  - "Kanban Management Professional (KMP®): fluxo, limites de WIP e entrega previsível."
 
-[Business_Education]
+[Teacher]
   - "Docente no ensino superior em Engenharia de Software."
 
 [Data_Science_IA]
@@ -107,46 +123,48 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=bd00ff" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=bd00ff" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=bd00ff" alt="Kotlin" />
   <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=bd00ff" alt="Python" />
   <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=bd00ff" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=bd00ff" alt="CSS3" />
   <br/>
   <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=bd00ff" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=bd00ff" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Astro-000000?style=for-the-badge&logo=astro&logoColor=bd00ff" alt="Astro" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=bd00ff" alt="Three.js" />
   <img src="https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=bd00ff" alt="React Native" />
   <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=bd00ff" alt="Expo" />
-  <img src="https://img.shields.io/badge/Kotlin_Multiplatform-000000?style=for-the-badge&logo=kotlin&logoColor=bd00ff" alt="Kotlin Multiplatform" />
-  <img src="https://img.shields.io/badge/Tauri-000000?style=for-the-badge&logo=tauri&logoColor=bd00ff" alt="Tauri" />
   <br/>
+  <img src="https://img.shields.io/badge/Tauri-000000?style=for-the-badge&logo=tauri&logoColor=bd00ff" alt="Tauri" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=bd00ff" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Styled_Components-000000?style=for-the-badge&logo=styledcomponents&logoColor=bd00ff" alt="Styled Components" />
   <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=bd00ff" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=bd00ff" alt="Express" />
+  <br/>
   <img src="https://img.shields.io/badge/NestJS-000000?style=for-the-badge&logo=nestjs&logoColor=bd00ff" alt="NestJS" />
   <img src="https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=bd00ff" alt="Prisma" />
-  <br/>
   <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=bd00ff" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=bd00ff" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=bd00ff" alt="Redis" />
+  <br/>
   <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTIuNSAxMy41YzUuNSA0LjIgMTMuNSA0LjIgMTkgMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQwMGZmIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8%2BPHBhdGggZD0iTTE3IDEyLjJsNC42LjktMS4zIDQuNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQwMGZmIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPHBhdGggZD0iTTUgNWwxLjYgNSAxLjYtNCAxLjYgNEwxMS40IDVNMTUuNiA2LjJjLS42LS44LTIuOC0xLjEtMi44LjQgMCAxLjUgMyAxIDMgMi42IDAgMS40LTIuMyAxLjQtMy4yLjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2JkMDBmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg%3D%3D" alt="AWS" />
   <img src="https://img.shields.io/badge/Azure-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTkuNiAyLjVoNS4xTDcuNCAyMS41SDEuOHoiLz48cGF0aCBmaWxsPSIjYmQwMGZmIiBvcGFjaXR5PSIuNyIgZD0iTTE0LjIgNy42bDggMTMuOUg4LjZsNi40LTIuNi0zLjMtNS42eiIvPjwvc3ZnPg%3D%3D" alt="Azure" />
   <img src="https://img.shields.io/badge/Google_Cloud-000000?style=for-the-badge&logo=googlecloud&logoColor=bd00ff" alt="Google Cloud" />
-  <br/>
   <img src="https://img.shields.io/badge/Oracle_Cloud-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3QgeD0iMi41IiB5PSI2LjUiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxMSIgcng9IjUuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQwMGZmIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4%3D" alt="Oracle Cloud" />
   <img src="https://img.shields.io/badge/DigitalOcean-000000?style=for-the-badge&logo=digitalocean&logoColor=bd00ff" alt="DigitalOcean" />
+  <br/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=bd00ff" alt="Vercel" />
   <img src="https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=bd00ff" alt="Netlify" />
   <img src="https://img.shields.io/badge/Cloudflare-000000?style=for-the-badge&logo=cloudflare&logoColor=bd00ff" alt="Cloudflare" />
-  <br/>
   <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=bd00ff" alt="Linux" />
   <img src="https://img.shields.io/badge/Nginx-000000?style=for-the-badge&logo=nginx&logoColor=bd00ff" alt="Nginx" />
+  <br/>
   <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=bd00ff" alt="Docker" />
   <img src="https://img.shields.io/badge/PM2-000000?style=for-the-badge&logo=pm2&logoColor=bd00ff" alt="PM2" />
   <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=bd00ff" alt="GitHub Actions" />
   <br/><br/>
-  <img src="https://img.shields.io/badge/Gestão_Ágil-000000?style=for-the-badge&logo=scrumalliance&logoColor=bd00ff" alt="Gestão Ágil" />
-  <img src="https://img.shields.io/badge/Kanban-000000?style=for-the-badge&logo=trello&logoColor=bd00ff" alt="Kanban" />
+  <img src="https://img.shields.io/badge/Tech_Governance-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="Tech Governance" />
+  <img src="https://img.shields.io/badge/KMP%C2%AE_Kanban-000000?style=for-the-badge&logo=trello&logoColor=bd00ff" alt="KMP® Kanban Management Professional" />
+  <img src="https://img.shields.io/badge/Agile_Coach-000000?style=for-the-badge&logo=scrumalliance&logoColor=bd00ff" alt="Agile Coach" />
   <img src="https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=bd00ff" alt="Cybersecurity" />
   <img src="https://img.shields.io/badge/Data_Science-000000?style=for-the-badge&logo=python&logoColor=bd00ff" alt="Data Science" />
 </div>
@@ -170,10 +188,10 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
 <img src="./svg/titulo-conecte.svg" alt=">_ ./conecte_se.sh" />
 
 <div align="center">
+  <a href="https://zespek.com.br/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-zespek.com.br-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQwMGZmIiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkuNSIvPjxwYXRoIGQ9Ik0yLjUgMTJoMTlNMTIgMi41YzMgMy4yIDMgMTUuOCAwIDE5TTEyIDIuNWMtMyAzLjItMyAxNS44IDAgMTkiLz48L3N2Zz4%3D" alt="Portfólio: zespek.com.br" /></a>
   <a href="https://www.linkedin.com/in/josé-felipe-de-frança"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTQgMi41aDE2QTEuNSAxLjUgMCAwIDEgMjEuNSA0djE2YTEuNSAxLjUgMCAwIDEtMS41IDEuNUg0QTEuNSAxLjUgMCAwIDEgMi41IDIwVjRBMS41IDEuNSAwIDAgMSA0IDIuNXoiLz48cGF0aCBmaWxsPSIjMDAwIiBkPSJNNi40IDkuNmgyLjd2OC4zSDYuNHpNNy43NSA1LjRhMS41NSAxLjU1IDAgMSAxIDAgMy4xIDEuNTUgMS41NSAwIDAgMSAwLTMuMXpNMTAuOCA5LjZoMi42djEuMTVjLjQ1LS44IDEuNDUtMS4zNSAyLjctMS4zNSAyLjEgMCAzIDEuMyAzIDMuNnY0LjloLTIuN3YtNC40YzAtMS4xNS0uNC0xLjgtMS4zNTAtMS44LTEgMC0xLjU1LjctMS41NSAxLjl2NC4zaC0yLjd6Ii8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
   <a href="https://github.com/Zespek"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=bd00ff" alt="GitHub" /></a>
-  <a href="https://www.instagram.com/ze._felipe"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=bd00ff" alt="Instagram" /></a>
-  <a href="mailto:joezika2016@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=bd00ff" alt="Email" /></a>
+  <a href="https://www.instagram.com/ze._.felipe/"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=bd00ff" alt="Instagram" /></a>
 </div>
 
 <br/>

@@ -42,11 +42,11 @@ PROMPT = [('zespek@server', ROXO_VIVO), (':~', AZUL), ('$ ', TEXTO)]
 # Cada linha: (partes já na tela, comando digitado ou None, instante em segundos)
 TERMINAL = [
     (PROMPT, 'whoami', 0.5),
-    ([('José Felipe · CTO · Senior Software Engineer · professor universitário', CLARO)], None, 1.5),
+    ([('José Felipe · CTO | Tech Governance | KMP® | Agile Coach | Teacher', CLARO)], None, 1.5),
     (PROMPT, 'cat ./foco_atual.txt', 2.2),
-    ([('> ', OK), ('segurança de APIs e servidores em produção', TEXTO)], None, 3.7),
-    ([('> ', OK), ('monitoramento próprio com alertas e auditoria', TEXTO)], None, 4.0),
-    ([('> ', OK), ('apps Kotlin Multiplatform, React Native e web', TEXTO)], None, 4.3),
+    ([('> ', OK), ('segurança de aplicações e servidores em produção', TEXTO)], None, 3.7),
+    ([('> ', OK), ('acho a falha antes de outra pessoa e fecho com o time', TEXTO)], None, 4.0),
+    ([('> ', OK), ('governança técnica e times ágeis com Kanban', TEXTO)], None, 4.3),
     (PROMPT, None, 4.8),
 ]
 CICLO, SOME = 16.0, 15.2  # o terminal limpa em SOME e recomeça a cada CICLO segundos
@@ -201,7 +201,7 @@ text {{ font: 500 {tam}px {FAMILIA}; white-space: pre; }}
 @keyframes varre {{ 0% {{ transform: translateY(-110px); }} 45%, 100% {{ transform: translateY({altura}px); }} }}
 @keyframes corre {{ to {{ transform: translateX({largura}px); }} }}
 @media (prefers-reduced-motion: reduce) {{ .cursor, .varre, .luz {{ animation: none; }} .varre, .luz {{ display: none; }} }}'''
-    return svg(largura, altura, janela, estilo, 'zespek@server: whoami. José Felipe, CTO, Senior Software Engineer e professor universitário')
+    return svg(largura, altura, janela, estilo, 'zespek@server: whoami. José Felipe, CTO | Tech Governance | KMP® | Agile Coach | Teacher')
 
 
 # ---------- Caveira do rodapé: a faixa de varredura atravessa a arte e um glitch de vez em quando ----------
