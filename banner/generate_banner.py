@@ -26,7 +26,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 NAME = "José Felipe"
-SUBTITLE = "CTO | Senior Software Engineer | KMP"
+SUBTITLE = "CTO | Tech Governance | KMP® | Agile Coach | Teacher"
 
 W, H, SCALE = 800, 250, 2      # layout em px CSS; saída em W*SCALE x H*SCALE
 FPS, DURATION = 20, 9.0        # loop contínuo de DURATION segundos
