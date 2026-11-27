@@ -20,8 +20,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from fonte import FAMILIA, fira_code  # noqa: E402
-from gerar_svgs import (ALERTA, AZUL, BORDA, CLARO, ERRO, FUNDO, LILAS, OK, ROXO,  # noqa: E402
-                        ROXO_ESCURO, ROXO_VIVO, SUAVE, TEXTO)
+from gerar_svgs import (AZUL, BORDA, CLARO, FUNDO, LILAS, OK, ROXO, ROXO_ESCURO,  # noqa: E402
+                        ROXO_VIVO, SUAVE, TEXTO, barra_windows)
 
 USUARIO = os.environ.get('USUARIO', 'Zespek')
 
@@ -170,28 +170,25 @@ def desenhar(info):
   <linearGradient id="varredura" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{ROXO}" stop-opacity="0"/><stop offset=".96" stop-color="{ROXO}" stop-opacity=".3"/><stop offset=".96" stop-color="{ROXO_VIVO}" stop-opacity=".7"/><stop offset="1" stop-color="{ROXO_VIVO}" stop-opacity=".7"/></linearGradient>
   <linearGradient id="topo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ROXO}" stop-opacity=".16"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></linearGradient>
   <linearGradient id="faixa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ROXO}" stop-opacity="0"/><stop offset=".9" stop-color="{ROXO}" stop-opacity=".10"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></linearGradient>
-  <clipPath id="moldura"><rect x="1" y="1" width="{largura - 2}" height="{altura - 2}" rx="10"/></clipPath>
+  <clipPath id="moldura"><rect x="1" y="1" width="{largura - 2}" height="{altura - 2}" rx="8"/></clipPath>
   <clipPath id="area-grafico"><rect x="{esq}" y="{topo}" width="{dir_ - esq}" height="{base - topo}"/></clipPath>
 </defs>
 <g clip-path="url(#moldura)">
   <rect width="{largura}" height="{altura}" fill="{FUNDO}"/>
   <rect width="{largura}" height="120" fill="url(#topo)"/>
-  <rect width="{largura}" height="36" fill="#15121b"/>
-  <rect y="36" width="{largura}" height="1" fill="{BORDA}"/>
-  <circle cx="22" cy="18" r="6" fill="{ERRO}"/><circle cx="42" cy="18" r="6" fill="{ALERTA}"/><circle cx="62" cy="18" r="6" fill="{OK}"/>
-  <text class="barra-titulo" x="{largura / 2}" y="22">zespek@github: ~/stats.log</text>
+  {barra_windows(largura, 'zespek@github: ~/stats.log')}
   {''.join(texto)}
   {''.join(grafico)}
   <text class="rodape" x="{x0}" y="{altura - 18}">{escape(rodape)}</text>
   <rect width="{largura}" height="{altura}" fill="url(#tubo)"/>
   <rect class="varre" width="{largura}" height="120" fill="url(#faixa)"/>
 </g>
-<rect x=".5" y=".5" width="{largura - 1}" height="{altura - 1}" rx="10.5" fill="none" stroke="{BORDA}"/>'''
+<rect x=".5" y=".5" width="{largura - 1}" height="{altura - 1}" rx="8.5" fill="none" stroke="{BORDA}"/>'''
     todos = ''.join(c for c in corpo if not c.isspace()) + ' "=[]_:/.()' + rodape
     estilo = f'''{fira_code(todos, 500)}
 text {{ font: 500 15px {FAMILIA}; white-space: pre; }}
 .secao {{ fill: {AZUL}; }}
-.barra-titulo {{ fill: {SUAVE}; font-size: 13px; text-anchor: middle; }}
+.barra {{ fill: {SUAVE}; font-size: 13px; }}
 .quadro-titulo {{ fill: {TEXTO}; font-size: 12px; letter-spacing: .5px; }}
 .selo {{ font-size: 12px; }}
 .eixo {{ fill: {SUAVE}; font-size: 12px; }}
