@@ -1,0 +1,53 @@
+name: Perfil animado
+
+# Todo dia gera o cartão de estatísticas (ferramentas/estatisticas.py) e a cobrinha das
+# contribuições nas cores da marca, e publica os dois no ramo "output", que o README lê.
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 06:17 em Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ferramentas/**"
+      - ".github/workflows/perfil.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perfil
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cartão de estatísticas
+        run: python ferramentas/estatisticas.py dist/estatisticas.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USUARIO: ${{ github.repository_owner }}
+
+      - name: Cobrinha das contribuições
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/cobra-escura.svg?palette=github-dark&color_snake=#bd00ff&color_dots=#161b22,#3b0a52,#5e0f87,#8a00bb,#bd00ff
+            dist/cobra-clara.svg?color_snake=#8300b3&color_dots=#ebedf0,#ecc2ff,#d77cff,#bd00ff,#8300b3
+
+      - name: Publicar no ramo output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
