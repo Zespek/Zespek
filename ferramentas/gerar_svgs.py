@@ -33,6 +33,7 @@ TITULOS = {
     'engenharia': '>_ ./dominio_em_engenharia_e_deploy.sh',
     'seguranca': '>_ ./seguranca_em_producao.sh',
     'lideranca': '>_ ./lideranca_tecnica_e_agil.sh',
+    'formacao': '>_ ./formacao_academica.sh',
     'arsenal': '>_ ./arsenal_tecnologico.sh',
     'stats': '>_ ./github_stats.sh',
     'conecte': '>_ ./conecte_se.sh',

@@ -26,7 +26,7 @@ zespek@server:~$ cat ./resumo_profissional.ini
 
 [Lideranca_Ensino]
   - "Agile Coach: comando times de alta performance com Scrum e Kanban (KMP®)."
-  - "Teacher: professor de Engenharia de Software, formando a nova geração de Devs."
+  - "Teacher: professor de Engenharia de Software na Universidade de Mogi das Cruzes."
 ```
 
 ---
@@ -109,16 +109,59 @@ zespek@server:~$ cat ./lideranca_tecnica.ini
   - "Kanban Management Professional (KMP®): fluxo, limites de WIP e entrega previsível."
 
 [Teacher]
-  - "Docente no ensino superior em Engenharia de Software."
-
-[Data_Science_IA]
-  - "Pós-graduado em Data Science & Inteligência Artificial, com foco em NLP."
-  - "IA aplicada à engenharia: agentes de código com revisão e reteste humano."
+  - "Docente no ensino superior em Engenharia de Software, na Universidade de Mogi das Cruzes."
 ```
 
 ---
 
+<img src="./svg/titulo-formacao.svg" alt=">_ ./formacao_academica.sh" />
+
+```ini
+zespek@server:~$ cat ./formacao.ini
+[ Graduação, pós e certificação, com a validação de cada uma logo abaixo: ]
+
+[Graduacao]
+  - "Bacharel em Ciência da Computação, UNG Universidade Guarulhos (2023)."
+
+[Pos_Graduacao]
+  - "MBA em Gestão de Projetos em TI, Faculdade Anhanguera (2024)."
+  - "MBA em Cybersecurity e Cybercrimes, Faculdade Anhanguera (2025)."
+  - "Pós em Ciência de Dados e Inteligência Artificial, Faculdade Anhanguera (2026)."
+  - "MBA em Marketing Digital e Analytics, Faculdade Anhanguera (em conclusão, 2026)."
+
+[Certificacao]
+  - "Kanban Management Professional (KMP®), Kanban University (2025)."
+```
+
+<div align="center">
+  <a href="https://www.certeduc.com:45344/getdocumento/04302037000800/1374026891486/0c4e221a2102e848a7bc5a5729875d264511662b829ae4660f2045b2cc3413cd30187212fe7fc1dcc87aceec42c1429bb656ca0d4f2b3f4e62fbb74cb34bdc36/pdf"><img src="https://img.shields.io/badge/Ci%C3%AAncia_da_Computa%C3%A7%C3%A3o_%28UNG%29-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="Ciência da Computação (UNG): validar" /></a>
+  <a href="https://kroton.platosedu.io/docs/validar/29829818fc93c479db5f2439759ac8243bf1517806623295ac4f3ee885121925fb6585"><img src="https://img.shields.io/badge/MBA_Gest%C3%A3o_de_Projetos_em_TI-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="MBA Gestão de Projetos em TI: validar" /></a>
+  <br/>
+  <a href="https://kroton.platosedu.io/docs/validar/29829876741ba37af6e3f874dd3e6b9b04f3571a30192d248658a107b5aa37cb7a6e7b"><img src="https://img.shields.io/badge/MBA_Cybersecurity_e_Cybercrimes-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="MBA Cybersecurity e Cybercrimes: validar" /></a>
+  <a href="https://kroton.platosedu.io/docs/validar/298298bd31e82cb978b1662220b480e13782df81abd6107f480dccbe3f0f34fe3ad0e1"><img src="https://img.shields.io/badge/P%C3%B3s_Ci%C3%AAncia_de_Dados_e_IA-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="Pós Ciência de Dados e IA: validar" /></a>
+  <br/>
+  <a href="https://kanban.university/kuapps/sites/default/files/certificates/certificate-52dcd210112409d7a695ce60c45a8957314c95029be08677be2ed4751085580d.pdf"><img src="https://img.shields.io/badge/Kanban_Management_Professional-validar-bd00ff?style=for-the-badge&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2JkMDBmZiIgZD0iTTEyIDJsOCAzdjZjMCA1LTMuNCA5LjQtOCAxMS00LjYtMS42LTgtNi04LTExVjV6Ii8%2BPHBhdGggZD0iTTggMTJsMyAzIDUtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8%2BPC9zdmc%2B" alt="Kanban Management Professional: validar" /></a>
+</div>
+
+---
+
 <img src="./svg/titulo-arsenal.svg" alt=">_ ./arsenal_tecnologico.sh" />
+
+```ini
+zespek@server:~$ cat ./arsenal.ini
+[ API / servidor / banco / código ]
+
+[Com_o_que_eu_trabalho]
+  - "Revisão de código e de permissões rota a rota."
+  - "Varredura de dependências e de falhas publicadas."
+  - "Leitura de logs e de tráfego."
+  - "Monitoramento com alerta, automação de servidor e de deploy."
+  - "Scripts próprios para o que se repete."
+
+[O_que_me_ajuda]
+  - "Um painel próprio que vigia os servidores o dia todo."
+  - "Um checklist que cresce a cada incidente resolvido."
+```
 
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=bd00ff" alt="JavaScript" />
